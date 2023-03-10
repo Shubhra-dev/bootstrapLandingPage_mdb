@@ -1,8 +1,4 @@
-/*!
-  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
-  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-  */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core')) :
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
@@ -124,7 +120,7 @@
 
       if (!hrefAttr || !hrefAttr.includes('#') && !hrefAttr.startsWith('.')) {
         return null;
-      } // Just in case some CMS puts out a full URL with the anchor appended
+      } // Just in case some of some cms
 
 
       if (hrefAttr.includes('#') && !hrefAttr.startsWith('#')) {
